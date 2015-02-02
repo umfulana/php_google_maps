@@ -144,7 +144,7 @@ class Google_Maps_Static extends Google_Maps_Overload
     * Set and return zoom of the map so all markers fit to screen. Takes map
     * center into account when it is set.
     *
-    * TODO zoomToFit() does not respect maz and min zoom.
+    * TODO zoomToFit() does not respect max zoom.
     *
     * @return   integer New zoom level.
     */
@@ -162,7 +162,7 @@ class Google_Maps_Static extends Google_Maps_Overload
       } else {
          $zoom = 0;
       } // zoom Map monde
-      $this->setZoom($zoom + 1);
+      $this->setZoom($this->min_zoom > ($zoom + 1) ? $this->min_zoom : $zoom + 1);
 
       return $zoom;
    }
