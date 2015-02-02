@@ -15,8 +15,6 @@
  *
  */
  
-require_once 'Google/Maps/Coordinate.php';
- 
 class Google_Maps_Marker_Cluster extends Google_Maps_Marker {
     
     protected $markers;

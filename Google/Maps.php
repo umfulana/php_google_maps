@@ -15,15 +15,15 @@
  *
  */
  
-require_once 'Google/Maps/Overload.php';
-require_once 'Google/Maps/Coordinate.php';
-require_once 'Google/Maps/Point.php';
-require_once 'Google/Maps/Marker.php';
-require_once 'Google/Maps/Marker/Cluster.php';
-require_once 'Google/Maps/Clusterer.php';
-require_once 'Google/Maps/Path.php';
-require_once 'Google/Maps/Control.php';
-require_once 'Google/Maps/Infowindow.php';
+require_once 'Maps/Overload.php';
+require_once 'Maps/Coordinate.php';
+require_once 'Maps/Point.php';
+require_once 'Maps/Marker.php';
+require_once 'Maps/Marker/Cluster.php';
+require_once 'Maps/Clusterer.php';
+require_once 'Maps/Path.php';
+require_once 'Maps/Control.php';
+require_once 'Maps/Infowindow.php';
 
 class Google_Maps extends Google_Maps_Overload {
         

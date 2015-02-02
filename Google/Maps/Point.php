@@ -15,8 +15,8 @@
  *
  */
  
-require_once 'Google/Maps/Mercator.php';
-require_once 'Google/Maps/Coordinate.php';
+require_once 'Mercator.php';
+require_once 'Coordinate.php';
 
 class Google_Maps_Point extends Google_Maps_Location {
 

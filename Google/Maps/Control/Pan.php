@@ -15,7 +15,7 @@
  *
  */
  
-require_once 'Google/Maps/Overload.php';
+require_once '../Overload.php';
 
 class Google_Maps_Control_Pan extends Google_Maps_Overload {
 

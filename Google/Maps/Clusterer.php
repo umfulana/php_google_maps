@@ -14,7 +14,7 @@
  *
  */
  
-require_once 'Google/Maps/Overload.php';
+require_once 'Overload.php';
 
 class Google_Maps_Clusterer {
         
