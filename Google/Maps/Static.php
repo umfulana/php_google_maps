@@ -150,7 +150,7 @@ class Google_Maps_Static extends Google_Maps_Overload
     */
    public function zoomToFit()
    {
-      $zoom  = 21;
+      $zoom  = $this->max_zoom;
       $found = false;
       if (count($this->markers) > 0) {
          $marker_bounds = $this->getMarkerBounds();
